@@ -1,0 +1,11 @@
+name = "study-notes-bot"
+main = "worker.js"
+compatibility_date = "2026-09-13"
+
+[vars]
+GEMINI_MODEL = "gemini-2.5-flash"
+
+# Set these as encrypted Worker secrets, NOT in this file:
+# TELEGRAM_BOT_TOKEN
+# GEMINI_API_KEY
+# ALLOWED_USER_ID
